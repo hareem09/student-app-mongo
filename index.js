@@ -11,7 +11,7 @@ app.get('/',(req,res)=>{
     res.send('HELLO WORLD')
 })
 
-//adding new book 
+//adding new student 
 app.get('/addstudent',async(req,res)=>{
     let newData= await studentModel.create({
         // RollNO:'001',
