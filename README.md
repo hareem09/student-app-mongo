@@ -70,11 +70,11 @@ Here's a quick overview of the methods that are used:
 3. db.collection.findOneAndDelete( filter, options ) => the name which you want to delete,true:new.
 
 ## API Endpoints
-1. Get all books
+1. Get all students
 ```bash
-GET/books
+GET/student
 ```
-2. Add new book 
+2. Add new student 
 ```bash
 GET/addstudent
 ```
@@ -86,11 +86,8 @@ Body
     Semester:'6th'
 }
 ```
-3. GET students
-```bash
-GET/student
-```
-4. Update student
+
+3. Update student
 ```bash
 GET/updatestudent
 ```
@@ -102,7 +99,7 @@ Body
     Semester:'6th'
 }
 ```
-5. Delete STUDENT
+4. Delete STUDENT
 ```bash
 GET/deletestudent
 ```
