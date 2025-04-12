@@ -63,7 +63,7 @@ module.exports = mongodb.model('student',studentSchema);
 ```
 Then make a separate file name index.js and import that in a variable.
 ## MongoDB CRUD operations 
-Here's a quick overview of the four primary HTTP methods associated with CRUD operations:
+Here's a quick overview of the methods that are used:
 
 1. db.collection.find() => to view all students
 2. db.collection.findOneAndUpdate( filter, update, options ) => old one, new one , true:new  
